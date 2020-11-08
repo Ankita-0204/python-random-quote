@@ -1,11 +1,13 @@
+import random
 def main():
   #print("Keep it logically awesome.")
 
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
-
-  print(quotes[13])
+  last=13
+  rnd=random.rand[0,last]
+  print(quotes[rnd])
 
 if __name__== "__main__":
   main()
